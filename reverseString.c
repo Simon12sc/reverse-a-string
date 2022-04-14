@@ -14,7 +14,7 @@ for(int i=0;i<lengthOfName;i++){
 	name[lengthOfName]=temp;
 	lengthOfName--;
 }
-printf("%s",name);
+printf("=>%s\n reversing is completed.",name);
 
 return 0;
 }
