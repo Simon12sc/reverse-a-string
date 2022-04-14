@@ -3,9 +3,9 @@
 
 int main()
 {
-
-char name[10]="jhonysins";
-
+char name[30];
+printf("Enter the word to reverse");
+scanf("%s",&name);
 int lengthOfName=strlen(name)-1;
 
 for(int i=0;i<lengthOfName;i++){
