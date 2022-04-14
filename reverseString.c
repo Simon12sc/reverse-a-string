@@ -4,7 +4,7 @@
 int main()
 {
 char name[30];
-printf("Enter the word to reverse");
+printf("Enter the word to reverse\n=>");
 scanf("%s",&name);
 int lengthOfName=strlen(name)-1;
 
